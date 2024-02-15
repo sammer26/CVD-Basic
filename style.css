@@ -966,3 +966,462 @@ transition:.5s ease;
   scale:1;
   transition:.5s ease;
 }
+
+
+/* LATEST TRENDS */
+.sammer{
+  padding:10rem 0;
+  background:#ffffff;
+  align-items:justify;
+}
+.sammer .sammer__wrapper{
+  display:grid;
+  grid-template-columns:2.5fr 1.5fr;
+  grid-gap:5rem;
+}
+.sammer .sammer__title h2{
+  color:#ffa700;
+  font-size:4rem;
+  font-weight:800;
+}
+.sammer .sammer__title p{
+  margin-top:1rem;
+}
+
+.sammer__wrapper .sammer__left ul{
+  display:flex;
+  flex-direction:row;
+  gap:5rem;
+}
+.sammer .sammer__left h3{
+  color:#ffa700;
+  font-size:2.5rem;
+  font-weight:700;
+  margin:3rem 0;
+}
+.sammer .sammer__left p{
+  margin-bottom:4rem;
+}
+.sammer .sammer__left a{
+  color:#ffa700;
+  font-size:1.7rem;
+}
+.sammer__right h2{
+  color: #ffa700;
+  font-size:2.5rem;
+  font-weight:700;
+  margin-bottom:5rem
+}
+.sammer table td{
+  width:100%;
+  height:5rem;
+}
+.sammer .bailey p{
+  font-weight:750;
+  font-size:1.5rem;
+}
+.bailey ul{
+  display:flex;
+  gap:2rem;
+  margin-top:2.5rem;
+}
+.bailey p{
+  padding-bottom:3.5rem;
+}
+.tags ul li a{
+  color:#2b2b2b;
+}
+.tags ul li{
+  padding:1rem 0;
+}
+.tags{
+  padding:3rem 0;
+}
+.cncpt{
+  border-bottom:2px solid lightgray;
+}
+.updates__right__item{
+  border-bottom:2px solid lightgray;
+}
+.bailey{
+  border-bottom:2px solid lightgray;
+}
+
+@media screen and (max-width:486px){
+  .sammer .sammer__wrapper{
+    display:flex;
+    flex-direction:column;
+    padding:.5rem;
+    gap:5rem;
+  }
+  .sammer h2{
+    font-size:3rem
+  }
+  .sammer__left h3{
+    text-align:center;
+  }
+  .sammer__left p{
+    text-align:justify;
+  }
+  .sammer .sammer__text h1{
+    font-size:3rem;
+  }
+  .sammer__text p{
+    max-width:fit-content;
+    text-align:justify;
+    font-size:1.5rem;
+  }
+  .code{
+    border-bottom:2px solid lightgray;
+  }
+  .sammer__right .tags ul li{
+    padding:1rem 0;
+  }
+  .bailey ul li{
+    font-size:1.3rem;
+    gap:1rem;
+  }
+  .code ul li{
+    font-size:1.3rem;
+    gap:1rem;
+  }
+}
+/* REPEATABLE PATTERNS */
+:root{
+  --dark:#2b2b2b;
+  --light:#ffffff;
+  --primary:#ffa700;
+}
+.btn{
+  display:inline-block;
+  padding:1rem 1.5rem;
+  border-radius:5rem;
+  border:1px solid transparent;
+  text-align:center;
+  transition:.5s ease;
+}
+.btn.bg--primary{
+  background:var(--primary);
+  color:#ffffff;
+}
+.btn.bg--primary:hover{
+  background:#2b2b2b;
+  border:1px solid #ffffff;
+  scale:1.1;
+  transition:.5s ease;
+}
+.btn.bg--dark:hover{
+  background:transparent;
+  border:1px solid var(--dark);
+  color:var(--dark);
+  scale:1.1;
+  transition:.5s ease;
+}
+.footer .footer__social ul li:hover .btn.bg--fb{
+  color: #4267b2;
+}
+.footer .footer__social ul li:hover .btn.bg--twt{
+  color: #1da1f2;
+}
+.footer .footer__social ul li:hover .btn.bg--ig{
+  color: #d62976;
+}
+.footer .footer__social ul li:hover .btn.bg--yt{
+  color: #ff0000;
+}
+.footer .footer__social ul li:hover .btn.bg--mail{
+  color: #ea4335;
+}
+.footer .footer__social ul li:hover{
+  scale:1.1;
+  transition:.5s ease;
+}
+.about .about__text ul li:hover .btn.bg--FB{
+  color: #4267b2;
+}
+.about .about__text ul li:hover .btn.bg--TWT{
+  color: #1da1f2;
+}
+.about .about__text ul li:hover .btn.bg--IG{
+  color: #d62976;
+}
+.about .about__text ul li:hover .btn.bg--YT{
+  color: #ff0000;
+}
+.about .about__text ul li:hover{
+  scale:1.1;
+  transition:.5s ease;
+}
+.updates .updates__left a:hover{
+  color:#2b2b2b;
+}
+.bn{
+  display:inline-block;
+  padding:1rem 1.5rem;
+  border-radius:5rem;
+  border:1px solid #2b2b2b;
+  text-align:center;
+  transition:.5s ease;
+}
+.bn.bg--tgs:hover{
+  background:#2b2b2b;
+  color:#ffffff;
+  boreder-color:var(--dark);
+}
+.bn.bg--tgs:hover{
+  background:#2b2b2b;
+  border:1px solid #2b2b2b;
+  color:#ffffff;
+  scale:1.1;
+  transition:.5s ease;
+}
+.con .bttn ul li:hover .btn.bg--FB{
+  color: #4267b2;
+}
+.con .bttn ul li:hover .btn.bg--TWT{
+  color: #1da1f2;
+}
+.con .bttn ul li:hover .btn.bg--IG{
+  color: #d62976;
+}
+.con .bttn ul li:hover .btn.bg--YT{
+  color: #ff0000;
+}
+.con .bttn ul li:hover{
+  scale:1.1;
+  transition:.5s ease;
+}
+
+
+
+/* CONTACT */
+.call{
+  padding:5rem 0;
+  background:#2b2b2b;
+  align-items:justify;
+  border-bottom:1px solid lightgray;
+  
+}
+.call__title h1{
+  color:#ffa700;
+  font-size:4.5rem;
+  font-weight:600;
+  padding-top:6rem;
+}
+.call__title p{
+  color:#ffffff;
+  padding:4rem 0;
+}
+.call__left ol i{
+  color:#ffa700;
+  font-size:2rem;
+  padding:2rem 0;
+}
+.call__left ol span{
+  color:#ffffff;
+  padding: 3rem;
+  font-size:1.5rem
+}
+.call__left ol{
+  padding-top:3rem
+}
+.call__left ul li a{
+  color:#ffffff;
+  padding:2rem 2rem 0 0;
+  font-size:2rem;
+}
+.call__left ul{
+  display:flex;
+}
+
+.call .call__wrapper{
+  display:grid;
+  grid-template-columns:2.5fr 2.5fr ;
+  grid-gap:2rem;
+}
+.call__right{
+  display:flex;
+  flex-direction:column;
+}
+.call__right ul li a{
+  color:#ffffff;
+  background:#ffa700;
+  padding:1rem;
+  border-radius:5rem;
+  
+}
+.call__right ul li{
+  padding:1rem 0;
+
+}
+.call__right{
+  padding:3rem 0;
+}
+.call__right ul li{
+  padding:5rem 0;
+  display:flex;
+  justify-calltent:flex-end;
+}
+
+.call__right form{
+  width: 600px;
+  border: 1px solid transparent;
+  padding-top:15rem;
+}
+
+input[type=text], input[type=email], textarea{
+  display: block;
+  padding: 10px;
+  font-size: 1.5rem;
+}
+input[type=text], input[type=email]{
+  width: 100%;
+  margin-bottom: 15px;
+}
+textarea{
+  width: 100%;
+  height:15rem;
+}
+@media screen and (max-width:486px){
+  .call .call__wrapper{
+    display:flex;
+    flex-direction:column;
+    padding:.5rem;
+    gap:5rem;
+  }
+  .call__left h1{
+    font-size:3rem;
+    display:flex;
+    justify-content:center;
+  }
+  .call__left p{
+    text-align:center;
+    padding-top:1rem;
+  }
+  .call .call__left ol li{
+    text-align:left;
+  }
+  .call__left ul{
+    display:flex;
+    justify-content:center;
+    padding-top:3rem;
+  }
+  .call .call__text h1{
+    font-size:3rem;
+  }
+  .call__text p{
+    max-width:fit-content;
+    text-align:justify;
+    font-size:1.5rem;
+  }
+  .call__right form{
+    width: 345px;
+    border: 1px solid transparent;
+    padding-top:2rem;
+  }
+}
+/* REPEATABLE PATTERNS */
+:root{
+  --dark:#2b2b2b;
+  --light:#ffffff;
+  --primary:#ffa700;
+}
+.btn{
+  display:inline-block;
+  padding:1rem 1.5rem;
+  border-radius:5rem;
+  border:1px solid transparent;
+  text-align:center;
+  transition:.5s ease;
+}
+.btn.bg--primary{
+  background:var(--primary);
+  color:#ffffff;
+}
+.btn.bg--primary:hover{
+  background:#2b2b2b;
+  border:1px solid #ffffff;
+  scale:1.1;
+  transition:.5s ease;
+}
+.btn.bg--dark:hover{
+  background:transparent;
+  border:1px solid var(--dark);
+  color:var(--dark);
+  scale:1.1;
+  transition:.5s ease;
+}
+.footer .footer__social ul li:hover .btn.bg--fb{
+  color: #4267b2;
+}
+.footer .footer__social ul li:hover .btn.bg--twt{
+  color: #1da1f2;
+}
+.footer .footer__social ul li:hover .btn.bg--ig{
+  color: #d62976;
+}
+.footer .footer__social ul li:hover .btn.bg--yt{
+  color: #ff0000;
+}
+.footer .footer__social ul li:hover .btn.bg--mail{
+  color: #ea4335;
+}
+.footer .footer__social ul li:hover{
+  scale:1.1;
+  transition:.5s ease;
+}
+.about .about__text ul li:hover .btn.bg--FB{
+  color: #4267b2;
+}
+.about .about__text ul li:hover .btn.bg--TWT{
+  color: #1da1f2;
+}
+.about .about__text ul li:hover .btn.bg--IG{
+  color: #d62976;
+}
+.about .about__text ul li:hover .btn.bg--YT{
+  color: #ff0000;
+}
+.about .about__text ul li:hover{
+  scale:1.1;
+  transition:.5s ease;
+}
+.updates .updates__left a:hover{
+  color:#2b2b2b;
+}
+.bn{
+  display:inline-block;
+  padding:1rem 1.5rem;
+  border-radius:5rem;
+  border:1px solid #2b2b2b;
+  text-align:center;
+  transition:.5s ease;
+}
+.bn.bg--tgs:hover{
+  background:#2b2b2b;
+  color:#ffffff;
+  boreder-color:var(--dark);
+}
+.bn.bg--tgs:hover{
+  background:#2b2b2b;
+  border:1px solid #2b2b2b;
+  color:#ffffff;
+  scale:1.1;
+  transition:.5s ease;
+}
+.con .bttn ul li:hover .btn.bg--FB{
+  color: #4267b2;
+}
+.con .bttn ul li:hover .btn.bg--TWT{
+  color: #1da1f2;
+}
+.con .bttn ul li:hover .btn.bg--IG{
+  color: #d62976;
+}
+.con .bttn ul li:hover .btn.bg--YT{
+  color: #ff0000;
+}
+.con .bttn ul li:hover{
+  scale:1.1;
+  transition:.5s ease;
+}
